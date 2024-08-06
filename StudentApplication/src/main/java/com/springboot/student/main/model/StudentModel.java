@@ -1,4 +1,4 @@
-package comm.springboot.student.main.model;
+package com.springboot.student.main.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
