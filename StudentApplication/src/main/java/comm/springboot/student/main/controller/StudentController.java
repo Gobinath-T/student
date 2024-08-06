@@ -1,5 +1,6 @@
 package comm.springboot.student.main.controller;
 
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,6 +24,11 @@ public class StudentController {
 	@GetMapping("/student/{name}")
 	public String getStudentByName(@PathVariable String id){
 		return null;
+	}
+	
+	@DeleteMapping("/delete/{id}")
+	public String deleteStudent(@PathVariable int id) {
+		return "deleted...";
 	}
 	
 	
