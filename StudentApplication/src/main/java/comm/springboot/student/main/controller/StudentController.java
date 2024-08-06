@@ -20,6 +20,11 @@ public class StudentController {
 		return null;
 	}
 	
+	@GetMapping("/student/{name}")
+	public String getStudentById(@PathVariable String id){
+		return null;
+	}
+	
 	
 
 }
