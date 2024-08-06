@@ -21,7 +21,7 @@ public class StudentController {
 	}
 	
 	@GetMapping("/student/{name}")
-	public String getStudentById(@PathVariable String id){
+	public String getStudentByName(@PathVariable String id){
 		return null;
 	}
 	
